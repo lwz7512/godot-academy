@@ -9,6 +9,8 @@ export const HeaderBlock = ({ ...props }) => {
       top="0"
       bg="background"
       zIndex="1000"
+      borderBottomWidth="1px"
+      py="1"
       {...props}
     >
       <Container>
@@ -85,7 +87,7 @@ export const Branding = () => {
   const { title } = useSiteMetadata()
   return (
     <A href="/" fontSize="3xl" fontWeight="semibold" color="text">
-      {title}
+      <span style="color:#f58220">//</span>{title}
     </A>
   )
 }
