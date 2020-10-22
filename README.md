@@ -12,6 +12,12 @@ Based on [Reflex](https://reflexjs.org/) project.
 % npm start
 ```
 
+### Deploy to github pages
+
+```
+% npm run deploy
+```
+
 then add content ...
 
 ### first version @10/21

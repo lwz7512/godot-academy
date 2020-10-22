@@ -1,6 +1,7 @@
 require(`dotenv`).config()
 
 module.exports = {
+  pathPrefix: "/reflex-ga-site",
   siteMetadata: {
     title: "Godot Acadamy",
     description: "Starter for Reflex.",
