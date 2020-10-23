@@ -19,6 +19,7 @@
     "@reflexjs/gatsby-theme-post": "^0.6.7",
     "@reflexjs/gatsby-theme-video": "^0.4.8",
     "gatsby": "^2.22.11",
+    "gatsby-plugin-manifest": "^2.4.35",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
     "typeface-inter": "^3.12.0"

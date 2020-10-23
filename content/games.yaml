@@ -1,0 +1,17 @@
+title: Curated list of opensource Godot Games
+games:
+  - title: Integrates 
+    description: Curabitur non nulla sit amet nisl tempus. -1
+    image: placeholder.jpg
+    link: /games/instancing.zip
+
+  - title: Integrates with  
+    description: Curabitur non nulla sit amet nisl tempus. -2
+    image: placeholder.jpg
+    link: /games/instancing.zip
+
+  - title: Integrates with your 
+    description: Curabitur non nulla sit amet nisl tempus. -3
+    image: placeholder.jpg
+    link: /games/instancing.zip
+  

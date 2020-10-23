@@ -18,5 +18,17 @@ module.exports = {
         types: [`Page`, `Post`],
       },
     },
+    {
+      resolve: `gatsby-plugin-manifest`,
+      options: {
+        name: `Godot Acadamy - your starting point for game development.`,
+        short_name: `Godot Academy`,
+        start_url: `/`,
+        background_color: `#fff`,
+        theme_color: `#000`,
+        display: `standalone`,
+        icon: `content/images/favicon.png`,
+      },
+    },
   ],
 }
