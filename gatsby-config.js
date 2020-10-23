@@ -27,7 +27,7 @@ module.exports = {
         background_color: `#fff`,
         theme_color: `#000`,
         display: `standalone`,
-        icon: `content/images/favicon.png`,
+        icon: `content/images/ga_logo.png`,
       },
     },
   ],
