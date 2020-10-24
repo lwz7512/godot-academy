@@ -10,7 +10,8 @@
     "clean": "gatsby clean",
     "dev": "gatsby clean && gatsby develop",
     "preview": "gatsby build && gatsby serve",
-    "deploy": "gatsby build --prefix-paths && gh-pages -d public"
+    "deploy": "gatsby build --prefix-paths && gh-pages -d public",
+    "gh": "gh-pages -d public"
   },
   "dependencies": {
     "@reflexjs/gatsby-plugin-metatags": "^0.2.7",

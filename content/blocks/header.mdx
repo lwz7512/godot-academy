@@ -84,10 +84,10 @@ export const HeaderBlock = ({ ...props }) => {
 }
 
 export const Branding = () => {
-  const { title } = useSiteMetadata()
+  const { title, siteUrl } = useSiteMetadata()
   const logostl = {width:20, height:44, marginRight:10}
   return (
-    <A href="/" fontSize="2xl" fontWeight="semibold" color="#105177"  >
+    <A href={siteUrl} fontSize="2xl" fontWeight="semibold" color="#105177"  >
       <Image src="favicon.png" alt="logo" w="6|8|12" h="6|8|12" mr="2" />
       {title}
     </A>
