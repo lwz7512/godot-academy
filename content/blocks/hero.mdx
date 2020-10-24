@@ -1,29 +1,36 @@
-<Section py="8|12|16|24">
-  <Container>
-    <Grid col="1|2" gap="8|12|16" alignItems="center">
-      <Image
-        src="ga_welcome.png"
-        colStart="null|2"
-        w="full"
-        rounded="lg"
-        overflow="hidden"
-      />
-      <Flexbox
-        flexDirection="column"
-        alignItems="center|flex-start"
-        textAlign="center|left"
-      >
-        <H1 m="0" fontWeight="extrabold" lineHeight="tight">
-          Building Games made easy!
-        </H1>
-        <P fontSize="xl|2xl" mt="2">
-          The most easiset and interesting way to learn programming and game development.
-        </P>
-        <ButtonLink href="/docs/installation" variant="primary">
-          Get Started
-          <Icon name="arrow-right" ml="4" />
-        </ButtonLink>
-      </Flexbox>
-    </Grid>
-  </Container>
-</Section>
+import { useSiteMetadata } from "@reflexjs/gatsby-theme-core"
+
+export const Hero = () => {
+  const { slogan, description } = useSiteMetadata()
+  return (
+    <Section py="8|12|16|24">
+      <Container>
+        <Grid col="1|2" gap="8|12|16" pt="4|8|12" pb="4|8|12" alignItems="center">
+          <Image
+            src="ga_welcome.png"
+            colStart="null|2"
+            w="full"
+            rounded="lg"
+            overflow="hidden"
+          />
+          <Flexbox
+            flexDirection="column"
+            alignItems="center|flex-start"
+            textAlign="center|left"
+          >
+            <H1 m="0" fontWeight="extrabold" lineHeight="tight">
+              {slogan}
+            </H1>
+            <P fontSize="xl|2xl" mt="2">
+              {description}
+            </P>
+            <ButtonLink href="/docs/installation" variant="primary">
+              Get Started
+              <Icon name="arrow-right" ml="4" />
+            </ButtonLink>
+          </Flexbox>
+        </Grid>
+      </Container>
+    </Section>
+  )
+}

@@ -4,8 +4,9 @@ module.exports = {
   pathPrefix: "/reflex-ga-site",
   siteMetadata: {
     title: "Godot Acadamy",
-    description: "Starter for Reflex.",
-    siteUrl: process.env.SITE_URL || "http://localhost:8000",
+    slogan: "Building Games made easy!",
+    description: "The most easiest and interesting way to learn programming and game development.",
+    siteUrl: process.env.SITE_URL || "http://godot.academy/",
   },
   plugins: [
     "@reflexjs/gatsby-theme-base",
@@ -27,7 +28,7 @@ module.exports = {
         background_color: `#fff`,
         theme_color: `#000`,
         display: `standalone`,
-        icon: `content/images/ga_logo.png`,
+        icon: `content/images/favicon.png`,
       },
     },
   ],
