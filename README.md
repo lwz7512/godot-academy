@@ -6,6 +6,13 @@ Based on [Reflex](https://reflexjs.org/) project.
 
 ![poster](content/images/ga_welcome.png)
 
+
+### Local install
+
+```
+% yarn
+```
+
 ### Local authoring
 
 ```
