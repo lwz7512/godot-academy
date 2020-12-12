@@ -1,7 +1,7 @@
 require(`dotenv`).config()
 
 module.exports = {
-  pathPrefix: "/reflex-ga-site",
+  pathPrefix: "/godot-academy",
   siteMetadata: {
     title: "Godot Acadamy",
     slogan: "Building Games made easy!",

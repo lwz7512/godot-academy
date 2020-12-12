@@ -2,13 +2,13 @@
  * dynamic game list based on reactjs/relfexjs components
  * @2020/10/22
  */
-import React, { useState, useEffect } from "react"
-import { Layout, Icon, Link, } from "@reflexjs/gatsby-theme-core"
+import React, { useEffect } from "react"
+import { Layout, Icon, } from "@reflexjs/gatsby-theme-core"
 import { Image } from "@reflexjs/gatsby-plugin-image"
 
 import { 
-  Button, Container, Grid, Section, Img,
-  H1, H2, P, Strong, Div, Span, Figure
+  Button, Container, Grid, Section,
+  H1, H2, P, Strong, Div, Span, 
 } from "@reflexjs/components"
 
 import DS from "../../content/games.yaml"
