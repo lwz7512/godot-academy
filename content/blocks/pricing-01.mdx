@@ -4,43 +4,47 @@ export const Pricing = ({ ...props }) => (
       <Flexbox flexDirection="column" textAlign="center">
         <H2 m="0">Our Courses</H2>
         <P fontSize="xl|2xl" mt="2" textAlign="center">
-          We have the best course for your kids to start learning programming
+          We have the best course for you(or your kids) to start learning programming
         </P>
       </Flexbox>
       <Grid col="1|2|3" mt="4|6|8" gap="4|6|0">
         <PricingItem
-          heading="Basic"
-          description="For small and medium-sized businesses"
-          price="5"
+          heading="Beginner"
+          description="Programming basics and Arcade game development"
+          price="120"
           list={[
-            "Lorem ipsum dolor sit amet",
-            "Consectetur adipiscing",
-            "Accumsan tincidunt",
+            "10+ session included",
+            "Python/Lua language",
+            "Arcade and Love2d game dev",
+            "9+ yo required",
+            "6 months long at most"
           ]}
           roundedRight="null|null|none"
           borderRight="null|null|none"
         />
         <PricingItem
-          heading="Plus"
-          description="For larger businesses with advanced administration tools"
-          price="30"
+          heading="Advanced"
+          description="Game development with Godot game engine"
+          price="200"
           list={[
-            "Lorem ipsum dolor sit amet",
-            "Consectetur adipiscing",
-            "Nulla porttitor",
-            "Accumsan tincidunt",
+            "10+ session included",
+            "GDScript & Godot IDE",
+            "Arcade/Platformer game dev",
+            "12+ yo required",
+            "6 months long at most"
           ]}
           isSelected
         />
         <PricingItem
-          heading="Custom"
-          description="For very large businesses or those in highly regulated industries"
-          price="50"
+          heading="Professional"
+          description="Design/Implement/Publish your 1st professional game"
+          price="300"
           list={[
-            "Lorem ipsum dolor sit amet",
-            "Consectetur adipiscing",
-            "Nulla porttitor",
-            "Accumsan tincidunt",
+            "10+ session included",
+            "Design Pattern/Structure",
+            "2D/2.5D game dev & publish",
+            "18+ yo required",
+            "6 months long at most"
           ]}
           roundedLeft="null|null|none"
           borderLeft="null|null|none"
