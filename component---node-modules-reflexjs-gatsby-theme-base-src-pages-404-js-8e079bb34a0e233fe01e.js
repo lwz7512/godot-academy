@@ -1,2 +1,0 @@
-(window.webpackJsonp=window.webpackJsonp||[]).push([[2],{"8snC":function(e,n,t){"use strict";t.r(n);var a=t("q1tI"),r=t("zCiS"),c=t("Jg8R");n.default=function(){return a.createElement(r.Container,{textAlign:"center"},a.createElement(r.H1,null,"404 - Page not found"),a.createElement(c.c,{to:"/"},a.createElement(c.a,{name:"arrow-left",mr:"2"}),"Back home"))}}}]);
-//# sourceMappingURL=component---node-modules-reflexjs-gatsby-theme-base-src-pages-404-js-8e079bb34a0e233fe01e.js.map
