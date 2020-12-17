@@ -4,8 +4,8 @@ module.exports = {
   pathPrefix: `/godot-academy`,
   siteMetadata: {
     title: "Godot Acadamy",
-    slogan: "Building Games made easy!",
-    description: "The most easiest and interesting way to learn programming and game development.",
+    slogan: "Learning coding by games!",
+    description: "The unique and innovative way to learn programming and game development.",
     siteUrl: process.env.SITE_URL || "http://godot.academy/",
   },
   plugins: [

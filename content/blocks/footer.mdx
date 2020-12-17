@@ -1,7 +1,7 @@
 import { useSiteMetadata } from "@reflexjs/gatsby-theme-core"
 
 export const FooterBlock = () => {
-  const { title } = useSiteMetadata()
+  const { title, description } = useSiteMetadata()
   return (
     <Section py={[8, 10, 12]} bg="muted">
       <Container>
@@ -15,16 +15,15 @@ export const FooterBlock = () => {
               {title}
             </H2>
             <P fontSize="md">
-              Perspiciatis doloribus dignissimos delectus exercitationem ipsum
-              voluptates.
+              {description}
             </P>
             <A href="#" fontSize="md" color="text" lineHeight="none">
               <Icon name="mail" size="5" mr="2" />
-              support@reflexjs.org
+              lwz7512@gmail.com
             </A>
           </Div>
           <NavMenu
-            name="footer-example"
+            name="footer-nav"
             dropdown={false}
             my="6|0"
             gap="4|10|18"
