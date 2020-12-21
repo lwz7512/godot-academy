@@ -19,6 +19,7 @@ export const Pricing = ({ ...props }) => (
             "9+ yo required",
             "6 months long at most"
           ]}
+          href="plans#beginner-course-%F0%9F%A7%91"
           roundedRight="null|null|none"
           borderRight="null|null|none"
         />
@@ -33,6 +34,7 @@ export const Pricing = ({ ...props }) => (
             "12+ yo required",
             "6 months long at most"
           ]}
+          href="plans#advanced-course-"
           isSelected
         />
         <PricingItem
@@ -46,6 +48,7 @@ export const Pricing = ({ ...props }) => (
             "18+ yo required",
             "6 months long at most"
           ]}
+          href="plans#professional-course-%F0%9F%A7%91"
           roundedLeft="null|null|none"
           borderLeft="null|null|none"
         />
@@ -60,6 +63,7 @@ export const PricingItem = ({
   description,
   list,
   isSelected,
+  href,
   ...props
 }) => (
   <Flexbox
@@ -96,8 +100,9 @@ export const PricingItem = ({
         </Li>
       ))}
     </Ul>
-    <Button variant={isSelected ? "primary" : "outlinePrimary"} mt="8" w="full">
+    <ButtonLink variant={isSelected ? "primary" : "outlinePrimary"} 
+      mt="8" w="full" href={href}>
       Select Plan
-    </Button>
+    </ButtonLink>
   </Flexbox>
 )
