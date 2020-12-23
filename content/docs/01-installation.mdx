@@ -1,53 +1,67 @@
 ---
 title: Installation
-excerpt: Create a new site using the base starter.
+excerpt: For different courses you need different tools.
 ---
 
-## Requirements
+## For Beginner Course
 
-Make sure you have the Gatsby CLI installed.
+**Dev 2DGame with Python**
 
-```sh
-npm i -g gatsby-cli
+To run a python game using Arcade library you need to install 2 thing:
+
+- [Python](https://www.python.org/) running enviroment
+- [Arcade](https://arcade.academy/) library
+- [VSCode](https://code.visualstudio.com/download) editor
+
+To install Python enviroment in Windows, check out [HERE](https://arcade.academy/installation_windows.html).
+to install Python enviroment in Mac, check out [HERE](https://arcade.academy/installation_mac.html)
+
+After you successfully install the Python enviroment, now it time to install Arcade library.
+
+Open command window(Terminal in Mac), then execute this:
+
+```
+pip3 install arcade
 ```
 
-## Create a site
+Last, download VSCode as your python program editor, and pick up a python plugin, you would be ready as a professional to start your coding journey.
 
-**Step 1: Create site**
+**Dev 2DGame with Lua**
 
-To create a new site using the `base` starter run the following command:
+Using Love2D to develop 2d game is much more intuitive than using python arcade, you just need to [DOWNLOAD](https://love2d.org/) a love2d program as an interpreter of you game code.
 
-```sh
-gatsby new NAME_OF_SITE reflexjs/gatsby-starter-base
-```
+<Image src="downloadlove2d.png" colStart="null|2" w="full" overflow="hidden"/>
 
-**Step 2: Configure Gatsby**
+After that, you still need an editor [VSCode](https://code.visualstudio.com/download) to write lua code. Last but not the least, there is a very handy plugin [Love2d Made Easy](https://marketplace.visualstudio.com/items?itemName=lwz7512.love2d-made-easy) to facilitate the lua writing and love2d program running process, saving your lots of time.
 
-Edit `gatsby-config.js` file and configure your site name and description.
 
-```js title=gatsby-config.js
-require(`dotenv`).config()
+## For Advanced Course
 
-module.exports = {
-  siteMetadata: {
-    // highlight-start
-    title: "Reflex",
-    description: "Starter for Reflex.",
-    // highlight-end
-    siteUrl: process.env.SITE_URL || "http://localhost:8000",
-  },
-  plugins: ["@reflexjs/gatsby-theme-base"],
-}
-```
+To start with Godot game development, you just need one tool download:
 
-**Step 3: Run your site.**
+- for [window version](https://godotengine.org/download/windows)
+- for [Mac version](https://godotengine.org/download/osx)
+- for [Linux version](https://godotengine.org/download/linux)
 
-You can now run your Gatsby site:
+## For Professional Course
 
-```sh
-gatsby develop
-```
+There are 3 courses related to professional level, the recommended learning path for this level is:
 
-**Step 4: View your site**
+Introduction to Coumputer Science --> Game Design Patterns --> Introduction to Game Development
 
-Gatsby will start the development environment at [http://localhost:8000](http://localhost:8000).
+
+**CS50's Introduction to Computer Science**
+
+Coming soon ...
+
+**Game Design Patterns**
+
+The web version is [HERE](https://gameprogrammingpatterns.com/contents.html)
+
+**CS50's Introduction to Game Development**
+
+3 tools needed:
+
+- [Love2D program](https://love2d.org/)
+- [Unity3D LTS Release 2018.4.x](https://unity3d.com/unity/qa/lts-releases)
+- [Blender](https://www.blender.org/download/)

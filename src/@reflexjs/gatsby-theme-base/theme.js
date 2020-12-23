@@ -4,18 +4,22 @@ export default {
   preset: base,
 
   colors: {
+    text: `#333`,
     primary: `#009ad6`,
     primaryHover: `#105176`
   },
   styles: {
     root: {
       blockquote: {
-        padding: "16px",
+        paddingLeft: "10px",
+        paddingTop: "6px",
+        paddingBottom: "6px",
         backgroundColor: "#fcf16e",
         borderRadius: "4px",
         borderLeft: t => `8px solid ${t.colors.primary}`,
         // 👇
         color: "#000",
+        fontSize: "1.2rem"
       },
     },
     hr: {
