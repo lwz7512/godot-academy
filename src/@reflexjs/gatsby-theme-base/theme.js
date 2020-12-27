@@ -4,7 +4,7 @@ export default {
   preset: base,
 
   colors: {
-    text: `#333`,
+    text: `#444`,
     primary: `#009ad6`,
     primaryHover: `#105176`
   },
