@@ -5,17 +5,17 @@ excerpt: Some helpful settings and extensions to make developing with Reflex eas
 
 ## VS Code
 
-1. Install the [VSCode MDX](https://marketplace.visualstudio.com/items?itemName=JounQin.vscode-mdx) extension to add language support for MDX.
+1. Enable Auto Save on `onFocuseChange`. 
 
-2. Enable `ESLint` support for `.md` and `.mdx` extensions.
-
-```js title=.vscode/settings.json
-{
-  "editor.codeActionsOnSave": {
-    "source.fixAll": true
-  },
-  "eslint.options": {
-    "extensions": [".js", ".jsx", ".md", ".mdx", ".ts", ".tsx"] // highlight-line
-  }
-}
 ```
+  Settings / User tab / Text Editor / Files / Auto Save - onFocuseChange
+```
+
+2. Enable Auto Reveal on File open, this is optional.
+
+```
+  Settings / User tab / Features / Explorer / Auto Reveal - true
+```
+  
+this means each time you open a file, the left EXPLORER panel will scroll to focus file name.
+

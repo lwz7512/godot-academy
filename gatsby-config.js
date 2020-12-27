@@ -5,7 +5,7 @@ module.exports = {
   siteMetadata: {
     title: "Godot Acadamy",
     slogan: "Learning coding by games!",
-    description: "The unique and easy way to learn programming and game development.",
+    description: "A straightforward path to learn programming and game development.",
     siteUrl: process.env.SITE_URL || "http://godot.academy/",
   },
   plugins: [
