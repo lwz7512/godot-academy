@@ -16,7 +16,8 @@ export const Link = ({ to, href, activeStyle, ...props }) => {
       {...props}
       sx={{
         "&:hover": {
-          fontWeight: 500
+          fontWeight: 500,
+          color: '#009ad6',
         },
         "&[aria-current=page]": activeStyle,
       }}
