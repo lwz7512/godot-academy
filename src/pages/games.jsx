@@ -14,7 +14,13 @@ import {
 import DS from "../../content/games.yaml"
 
 
-const Card = ({ image, title, description, link, ...props }) => (
+const Tag = ({name}) => (
+  <Span bg="#1d953f" px="8px" py="2px" borderRadius="15px" color="#FFF" mr="10px" >
+    {name}
+  </Span>
+)
+
+const Card = ({ image, title, description, link, tags, ...props }) => (
   <Div {...props}>
     {/* <Figure {...props}>
       <Img src={image} alt={title} title={title} />
@@ -24,9 +30,14 @@ const Card = ({ image, title, description, link, ...props }) => (
       <H2 m="0" fontSize="2xl" style={{height: 30}} >
         {title}
       </H2>
+      <P fontSize="14px" >
+        {
+          tags.map((t,i) => (<Tag name={t} key={i} />))
+        }
+      </P>
       <P fontSize="lg" style={{height: 80}} >{description}</P>
       <Button as="a" href={link} variant="primary">
-        Download <Icon name="arrow-down" ml="2" />
+        Source Code <Icon name="arrow-down" ml="2" />
       </Button>
     </Div>
   </Div>
@@ -68,6 +79,7 @@ const GamesPage = () => {
                     title={item.title}
                     description={item.description}
                     link={item.link}
+                    tags={item.tags}
                   />
                 ))
               }

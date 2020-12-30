@@ -1,17 +1,26 @@
 title: Curated list of opensource Godot Games
 games:
-  - title: Integrates 
-    description: Curabitur non nulla sit amet nisl tempus. -1
-    image: placeholder.jpg
-    link: /games/instancing.zip
+  - title: Asteroid Fighter 
+    description: Two levels asteroid fighter based on love2d.
+    image: asteroid_fighter.png
+    link: https://github.com/lwz7512/love2d-asteroid-fighter
+    tags: 
+      - lua
+      - space war
 
-  - title: Integrates with  
-    description: Curabitur non nulla sit amet nisl tempus. -2
+  - title: Learning Coding  
+    description: Curabitur non nulla sit amet nisl tempus.
     image: placeholder.jpg
     link: /games/instancing.zip
+    tags: 
+      - not
+      - sure
 
-  - title: Integrates with your 
-    description: Curabitur non nulla sit amet nisl tempus. -3
+  - title: With Godot Academy
+    description: Curabitur non nulla sit amet nisl tempus.
     image: placeholder.jpg
     link: /games/instancing.zip
+    tags: 
+      - coming
+      - soon
   
