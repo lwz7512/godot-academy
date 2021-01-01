@@ -1,0 +1,26 @@
+<!-- hero full screen image with getstarted button @2021/01/01 -->
+export const HeroFull = ({startURL}) => {
+  return (
+    <Section py="0" position="relative" >
+      <Image src="GODOT_ACADEMY_POSTER_2.png" 
+        colStart="null|2" w="full" overflow="hidden"
+        />
+      <Container 
+        position="absolute" top="0" left="10" 
+        height="100%"
+        width="80"
+        display="flex" 
+        flexDirection="row"
+        alignItems="center"
+        justifyContent="center"
+        pt="10"
+        >
+        <ButtonLink href={startURL} variant="primary"
+          bg="transparent" borderWidth="2px" rounded="0" >
+          GET STARTED
+          <Icon name="arrow-right" ml="4" />
+        </ButtonLink>
+      </Container>
+    </Section>
+  )
+}
