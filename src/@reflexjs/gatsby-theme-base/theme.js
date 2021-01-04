@@ -1,8 +1,19 @@
 import base from "@reflexjs/preset-base"
-
+// to override the default theme, reference @reflexjs/preset-base/index.js
 export default {
   preset: base,
-
+  button: {
+    link: {
+      bg: "#F5F5F5",
+      color: "text",
+      borderColor: "transparent",
+      "&:hover, &:focus": {
+        bg: "#d3d7d4",
+        color: "text",
+        borderColor: "transparent",
+      },
+    },
+  },
   colors: {
     text: `#444`,
     primary: `#009ad6`,
@@ -21,6 +32,9 @@ export default {
         color: "#000",
         fontSize: "1.2rem"
       },
+    },
+    a: {
+      textDecoration: "underline",
     },
     hr: {
       borderTop: "1px solid",

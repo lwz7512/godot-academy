@@ -1,0 +1,28 @@
+---
+title: Configure your editor
+excerpt: Some helpful settings and extensions to make game development more easier.
+---
+
+## VS Code
+
+🔧 1. Enable Auto Save on `onFocuseChange`. 
+
+```
+  Settings / User tab / Text Editor / Files / Auto Save - onFocuseChange
+```
+
+🔧 2. Enable Auto Reveal on File open, this is optional.
+
+```
+  Settings / User tab / Features / Explorer / Auto Reveal - true
+```
+  
+This means each time you open a file, the left EXPLORER panel will scroll to focus file name.
+
+🔑 3. Setup(unlock) Python program launch button
+
+To run Python program in our universal code editor `VS Code`, we'll need create a `launch.json` file to let vscode know where to find our Python intepreter to run python code. This step would be covered in [Setup & First Game](/docs/arcade-install).
+
+🔑 4. Setup(unlock) Lua program launch button
+
+Like the Python program launch button, we also need a Lua program launch button. We achieve this by installing a VSCode called [love2d-made-easy](https://marketplace.visualstudio.com/items?itemName=lwz7512.love2d-made-easy). This step would be covered in [Setup & First Game](/docs/love2d-install).

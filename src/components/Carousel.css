@@ -1,0 +1,9 @@
+.slider {
+  background-color: antiquewhite;
+}
+
+.slide.animateIn,
+.slide.animateOut {
+	-webkit-transition: all 1s ease;
+	transition: all 1s ease;
+}
