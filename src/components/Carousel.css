@@ -1,9 +1,13 @@
 .slider {
-  background-color: antiquewhite;
+	background-color: antiquewhite;
 }
 
 .slide.animateIn,
 .slide.animateOut {
 	-webkit-transition: all 1s ease;
 	transition: all 1s ease;
+}
+
+.track {
+	height: 100%;
 }
