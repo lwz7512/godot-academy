@@ -1,3 +1,7 @@
+/**
+ * made a little bit style optimization:
+ * H4 : mt & mb
+ */
 import * as React from "react"
 import { useNav } from "@reflexjs/gatsby-theme-nav"
 import { Ul, Li, Nav, H4 } from "@reflexjs/components"

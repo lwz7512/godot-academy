@@ -1,6 +1,6 @@
 import { useSiteMetadata } from "@reflexjs/gatsby-theme-core"
 
-export const Hero = ({startURL}) => {
+export const Hero = ({startURL, btnLabel}) => {
   const { slogan, description } = useSiteMetadata()
   return (
     <Section py="8|12|16|24" bg="muted">
@@ -25,7 +25,7 @@ export const Hero = ({startURL}) => {
               {description}
             </P>
             <ButtonLink href={startURL} variant="primary">
-              Get Started
+              {btnLabel ? btnLabel : 'Get Started'}
               <Icon name="arrow-right" ml="4" />
             </ButtonLink>
           </Flexbox>

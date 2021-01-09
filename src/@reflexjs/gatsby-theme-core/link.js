@@ -1,3 +1,6 @@
+/**
+ * override hover style on navigation tree item
+ */
 /** @jsx jsx */
 import { jsx } from "theme-ui"
 import { Link as GatsbyLink } from "gatsby"
