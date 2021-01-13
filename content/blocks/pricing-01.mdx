@@ -4,7 +4,7 @@ export const Pricing = ({ ...props }) => (
       <Flexbox flexDirection="column" textAlign="center">
         <H2 m="0">Our Plans</H2>
         <P fontSize="xl|2xl" mt="2" textAlign="center">
-          choose the well-designed content to start your programming adventure
+          Choose the well-designed content to start your programming adventure
         </P>
       </Flexbox>
       <Grid col="1|2|3" mt="4|6|8" gap="4|6|0">
@@ -22,7 +22,8 @@ export const Pricing = ({ ...props }) => (
             "2 kids per class",
             "Weekend time available for schedule"
           ]}
-          href="plans#beginner-course-%F0%9F%A7%91"
+          href="courses#beginner-course-%F0%9F%A7%91"
+          action="See Details"
           roundedRight="null|null|none"
           borderRight="null|null|none"
         />
@@ -40,7 +41,8 @@ export const Pricing = ({ ...props }) => (
             "2 kids per class",
             "Weekend time available for schedule"
           ]}
-          href="plans#advanced-course-"
+          href="courses#advanced-course-"
+          action="See Details"
           isSelected
         />
         <PricingItem
@@ -56,7 +58,8 @@ export const Pricing = ({ ...props }) => (
             "One on One online tutoring",
             "All days for schedule"
           ]}
-          href="plans#professional-course-%F0%9F%A7%91"
+          href="courses#professional-course-%F0%9F%A7%91"
+          action="See Details"
           roundedLeft="null|null|none"
           borderLeft="null|null|none"
         />
@@ -66,6 +69,7 @@ export const Pricing = ({ ...props }) => (
 )
 
 export const PricingItem = ({
+  action,
   heading,
   price,
   description,
@@ -110,7 +114,7 @@ export const PricingItem = ({
     </Ul>
     <ButtonLink variant={isSelected ? "primary" : "outlinePrimary"} 
       mt="8" w="full" href={href}>
-      Select Plan
+      {action}
     </ButtonLink>
   </Flexbox>
 )

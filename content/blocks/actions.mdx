@@ -1,0 +1,17 @@
+<!-- @2021/01/09 -->
+export const Actions = ({ plansUrl, contactUrl }) => (
+  <Section pt="2|4">
+    <Flexbox
+      gap="8"
+      flexDirection={["column", "row"]}
+      alignItems={["flex-start", "center"]}
+      justifyContent="flex-start">
+      <ButtonLink href={plansUrl} variant="primary">
+        Choose Plan
+      </ButtonLink>
+      <ButtonLink href={contactUrl} variant="accent">
+        Contact Me
+      </ButtonLink>
+    </Flexbox>
+  </Section>
+)

@@ -16,6 +16,8 @@ export default {
   },
   colors: {
     text: `#444`,
+    accent: `#fcf16e`,
+    accentHover: "#FDAF51",
     primary: `#009ad6`,
     primaryHover: `#105176`
   },
@@ -39,8 +41,8 @@ export default {
     hr: {
       borderTop: "1px solid",
       borderTopColor: "border",
-      marginTop: "4rem",
-      marginBottom: "6rem"
+      marginTop: "2rem",
+      marginBottom: "4rem"
     },
     table: {
       borderCollapse: "collapse",

@@ -22,10 +22,7 @@ const Tag = ({name}) => (
 
 const Card = ({ image, title, description, link, tags, ...props }) => (
   <Div {...props}>
-    {/* <Figure {...props}>
-      <Img src={image} alt={title} title={title} />
-    </Figure> */}
-    <Image src={image} />
+    <Image src={image} height="200px" />
     <Div py="4|6|8">
       <H2 m="0" fontSize="2xl" style={{height: 30}} >
         {title}
