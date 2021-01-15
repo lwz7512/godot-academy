@@ -5,11 +5,15 @@
  * @2021/01/03 - first version
  * 
  * sample item structure: 
- * {title:'', banner:'', description:'', list:[], icon:''}
+ * {title:'', banner:'', description:'', list:[], icon:'', footer:''}
  * 
  * @2020/01/12 
  * - add link to list, li format: Website|https://arcade.academy/
  * - add top left icon
+ * 
+ * @2020/01/14
+ * - title relayout to absolute position
+ * - footer text(page number)
  * 
  */
 import React from 'react'
@@ -23,7 +27,10 @@ export const SliderMDX = ({items}) => (
     {items.map((s, i) => (
       <Div key={i} >
         {s.title &&
-          <H3 textAlign="center" >{s.title}</H3>
+          <H3 w="full" textAlign="center" 
+            position="absolute" top="0" left="0" zIndex="9" >
+            {s.title}
+          </H3>
         }
         {s.banner &&
           <Image src={s.banner} colStart="null|2" w="full" overflow="hidden" />
@@ -62,6 +69,12 @@ export const SliderMDX = ({items}) => (
             </Ul>
           }
         </Div>
+        {s.footer &&
+          <P w="full" textAlign="right" px="6" fontSize="1rem" color="#888"
+            position="absolute" bottom="0" left="0" zIndex="11" >
+            {s.footer}
+          </P>
+        }
       </Div>
     ))}
   </Slider>
