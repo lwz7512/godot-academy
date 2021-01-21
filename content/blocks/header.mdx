@@ -7,9 +7,8 @@ export const HeaderBlock = ({ ...props }) => {
     <Header
       position={["sticky", "relative"]}
       top="0"
-      bg="background"
+      bg="#021025"
       zIndex="1000"
-      borderBottomWidth="1px"
       py="1"
       {...props}
     >
@@ -87,7 +86,7 @@ export const Branding = () => {
   const { title, siteUrl } = useSiteMetadata()
   const logostl = {width:20, height:44, marginRight:10}
   return (
-    <A href={siteUrl} fontSize="2xl" fontWeight="semibold" color="#105177"  >
+    <A href={siteUrl} fontSize="2xl" fontWeight="semibold" color="#009ad6"  >
       <Image src="favicon.png" alt="logo" w="6|8|12" h="6|8|12" mr="2" />
       {title}
     </A>
