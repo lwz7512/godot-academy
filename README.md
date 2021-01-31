@@ -35,3 +35,9 @@ then add content ...
 |-- Games
 |-- Updates
 ```
+
+### image optimization
+
+```
+% node scripts/optimize.js
+```
