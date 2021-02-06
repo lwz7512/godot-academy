@@ -5,7 +5,7 @@ excerpt: Developing 2D Game with Python Arcade Library
 
 import { SliderMDX } from "components/Carousel"
 
-## Screenshot
+## What you'll learn
 
 <Image src="arcade_course.001.png" colStart="null|2" w="full" overflow="hidden"/>
 
@@ -88,13 +88,36 @@ import { SliderMDX } from "components/Carousel"
   }
 ]} />
 
-### Demo Time
+### Demo Time(Mac computer only)
 
-Video(on how to launch Python Arcade Games) coming soon ...
+<iframe width="750" height="400" src="https://www.youtube.com/embed/yVlVn-YxjGI" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+Video Content List:
+
+- Check python installation success
+- Check `python path` in VSCode settings
+- Create python programs folder `arcade_games`
+- Enable launching python program in VSCode
+- Launch your first game
 
 ### Code involved
 
-would be here
+```
+import arcade
+
+SCREEN_WIDTH = 400
+SCREEN_HEIGHT = 300
+SCREEN_TITLE = "Python Aracde Game - Welcome"
+
+arcade.open_window(SCREEN_WIDTH, SCREEN_HEIGHT, SCREEN_TITLE)
+arcade.set_background_color(arcade.color.BLACK)
+arcade.start_render()
+
+arcade.draw_text("Welcome to Arcade Game World", 20, 200, arcade.color.AERO_BLUE, 18)
+
+arcade.finish_render()
+arcade.run()
+```
 
 
 ### Review

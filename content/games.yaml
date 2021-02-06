@@ -16,10 +16,10 @@ games:
       - pygame
       - python
 
-  - title: With Godot Academy
+  - title: Harvester
     description: Curabitur non nulla sit amet nisl tempus.
-    image: rainbow_bg2.png
-    link: /#
+    image: harvester-v1.0-explosion.png
+    link: https://github.com/GDQuest/godot-2d-space-game
     tags: 
-      - coming
-      - soon
+      - Godot
+      - AI

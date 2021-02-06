@@ -2,6 +2,7 @@ import base from "@reflexjs/preset-base"
 // to override the default theme, reference @reflexjs/preset-base/index.js
 export default {
   preset: base,
+  // doc navigation button style
   button: {
     link: {
       bg: "#F5F5F5",
@@ -15,8 +16,8 @@ export default {
     },
   },
   colors: {
-    text: `#666`,
-    accent: `#fcf16e`,
+    text: `#555`,
+    accent: `#EF925E`,
     accentHover: "#FDAF51",
     primary: `#009ad6`,
     primaryHover: `#105176`
