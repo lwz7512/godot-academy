@@ -1,0 +1,55 @@
+title: slider-arcade-install
+slides:
+  - title: What is Python and used for?
+    description: Python in computer world actually is a programming language, which is the most easy understanding for human being and most easy to get started among those dosens of popular computer languages. You can use Python to talk with computer, make it to do almost everything but not limited to the following tasks
+    list:
+      - Data analytics
+      - Machine learning
+      - Scientific computing
+      - Web Applications
+    icon: python_logo_s.png
+    footer: 1/6
+  
+  - title: What is Arcade?
+    description: Arcade is an easy-to-learn Python library for creating 2D video games. It is ideal for beginning programmers, or programmers who want to create 2D games without learning a complex framework.
+    list:
+      - Neat Website|https://arcade.academy/
+      - Step by step learning|https://learn.arcade.academy/
+      - Open source|https://github.com/pythonarcade/arcade
+      - Better than pygame|https://arcade.academy/pygame_comparison.html
+    icon: arcade_logo_s.png
+    footer: 2/6
+  
+  - title: What VS Code?
+    description: The most popular and powerful yet free code editor prevailed in many developer comunities. You can use this tool to write almost every programming language delightedly thanks to its intelliSense.
+    list:
+      - Getting Started|https://code.visualstudio.com/docs
+      - Learn|https://code.visualstudio.com/learn
+      - Download|https://code.visualstudio.com/Download
+    icon: vscode_logo_s.png
+    footer: 3/6
+  
+  - title: What is the relationship among these tools?
+    description: 🎯 In short, you speak Python language to computer using a dialect(Arcade) to let it know what you want him to create.
+    list:
+      - 🔊 Use Python to express or describe your computer tasks(like games)
+      - 🏭 Use Arcade library as your game blocks
+      - 📝 Use VS Code to write down and turn your ideas into games
+    footer: 4/6
+  
+  - title: What does a simplest Arcade game look like?
+    description: A typical arcade game should have
+    banner: simple_arcade.png
+    list:
+      - Character
+      - Challenges
+      - Goal
+    footer: 5/6
+  
+  - title: Before you proceed to the next session
+    description: Thear are a couple of preparations that should be done beforehand
+    list:
+      - 📌 Python install|https://www.python.org/downloads/
+      - 📌 Aracde install|installation
+      - 📌 VS code install|https://code.visualstudio.com/download
+    footer: 6/6

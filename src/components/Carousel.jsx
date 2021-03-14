@@ -20,7 +20,13 @@ import React from 'react'
 import Slider from 'react-animated-slider';
 import { A, Div, H3, Ul, Li, P } from '@reflexjs/components';
 import { Image } from '@reflexjs/gatsby-plugin-image';
+import { useSlides } from '../hooks/use-slides'
 
+
+export default function Carousel ({title}) {
+  let [all] = useSlides(title)
+  return (<SliderMDX items={all.slides} />)
+}
 
 export const SliderMDX = ({items}) => (
   <Slider >

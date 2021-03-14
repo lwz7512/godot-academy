@@ -11,7 +11,7 @@ import {
   H1, H2, P, Strong, Div, Span, 
 } from "@reflexjs/components"
 
-import DS from "../../content/games.yaml"
+import DS from "../../content/data/games.yaml"
 
 
 const Tag = ({name}) => (
